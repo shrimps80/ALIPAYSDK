@@ -1,5 +1,4 @@
 {
-    "version": "1.0.0",
     "name": "tb/alipaysdk",
     "description": "支付宝SDK",
     "type": "library",
