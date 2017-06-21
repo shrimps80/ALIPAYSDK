@@ -1,8 +1,10 @@
 <?php
-
-
-include('RSAUtil.php');
-include('WebUtil.php');
+if (!class_exists('RSAUtil')) {
+	include('RSAUtil.php');
+}
+if (!class_exists('WebUtil')) {
+	include('WebUtil.php');
+}
 class ZmopClient {
 	//应用ID
 	public $appId;
